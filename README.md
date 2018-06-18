@@ -6,4 +6,4 @@ Most experiments from Zed Shaw's book, Learn C the Hard Way.
 
 To run any of the code snippets ->
 
-``` MAKE <c file> ```
+``` $ make <c file> ```
