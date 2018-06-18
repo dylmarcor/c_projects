@@ -5,7 +5,7 @@ int main(int argc, char*argv[])
 	int i = 0;
 
 	if (argc == 1) {
-		printf("You only have one argument.\n");
+		printf("You gave no arguments!\nYou have to give me something...\n");
 	} else if (argc > 1 && argc < 4) {
 		printf("Here's your argument:\n");
 	
