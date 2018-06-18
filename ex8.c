@@ -5,11 +5,13 @@ int main(int argc, char*argv[])
 	int i = 0;
 
 	if (argc == 1) {
-		printf("You gave no arguments!\nYou have to give me something...\n");
+		printf("You gave no arguments!\nYou have to give me something...\n
+				\n\nNo more than four...");
 	} else if (argc > 1 && argc < 4) {
 		printf("Here's your argument:\n");
 	
-		for (i = 0; i < argc; i++) {
+		// Skip over the inital command and print arguments.
+		for (i = 1; i < argc; i++) {
 			printf("%s ", argv[i]);
 		}
 
