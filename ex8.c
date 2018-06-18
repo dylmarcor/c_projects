@@ -7,7 +7,7 @@ int main(int argc, char*argv[])
 
 	if (argc == 1) {
 		strcat(str, "You gave no arguments!\nYou have to give me something...\n"); 
-		strcat(str, ("\n\nNo more than four...");
+		strcat(str, "\n\nNo more than four...");
 	} else if (argc > 1 && argc < 4) {
 		printf("Here's your argument:\n");
 	
