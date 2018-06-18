@@ -10,7 +10,7 @@ int main(int argc, char*argv[])
 		strcat(str, "You gave no arguments!\nYou have to give me something...\n"); 
 		strcat(str, "\n\nNo more than four...\n");
 		printf("%s", str);
-	} else if (argc > 1 && argc < 4) {
+	} else if (argc > 1 && argc < 55555) {
 		printf("Here's your argument:\n");
 	
 		// Skip over the inital command and print arguments.
