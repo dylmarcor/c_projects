@@ -45,6 +45,7 @@ int main(int argc, char *argv[]) {
 
 				case 'y':
 				case 'Y':
+					printf("Y\'s are weird ones...\n");
 					if (i > 2) {
 						printf("%d: 'Y'\n", i);
 					}
@@ -54,15 +55,12 @@ int main(int argc, char *argv[]) {
 					printf("...space...\n");
 					break;
 
-				case '\n':
-					printf("\nNext Word\n");
-					break;
-
 				default:
 					printf("%d: %c is not a vowel\n", i, letter);
 
 			}
 		}
+		printf("\n\nNext Word\n\n");
 	}
 
 	return 0;
