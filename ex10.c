@@ -10,6 +10,7 @@ int main(int argc, char *argv[]) {
 
 	int i = 0;
 	int j = 0;
+	char final_letter;
 
 	for (j = 1; argv[j] != '\0'; j++) {
 		for (i = 0; argv[j][i] != '\0'; i++) {
@@ -59,8 +60,15 @@ int main(int argc, char *argv[]) {
 					printf("%d: %c is not a vowel\n", i, letter);
 
 			}
+			if (argv[j][i] == '\0') {
+				final_letter = '\0';
+			}
 		}
-		printf("\n\nNext Word\n\n");
+		if (final_letter == '\0') {
+			printf("Finished!");
+		} else {
+			printf("\n\nNext Word\n\n");
+		}
 	}
 
 	return 0;
