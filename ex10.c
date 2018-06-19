@@ -2,7 +2,8 @@
 
 int main(int argc, char *argv[]) {
 	
-	if (argc != 2){
+	if (argc != 2) {
+		// Return error if more nothing sent to the program								
 		printf("ERROR: You need at least one argument\n");
 		return 1;
 	}
@@ -13,6 +14,7 @@ int main(int argc, char *argv[]) {
 
 		switch(letter) {
 			case 'a':
+			// Falls through here, and for letters 'E','I','O','U' and 'Y'
 			case 'A':
 				printf("%d: 'A'\n", i);
 				break;
