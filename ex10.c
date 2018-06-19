@@ -3,7 +3,7 @@
 int main(int argc, char *argv[]) {
 	
 	if (argc != 2){
-		printf("ERROR: You need at least one argument");
+		printf("ERROR: You need at least one argument\n");
 		return 1;
 	}
 
