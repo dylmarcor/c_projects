@@ -47,7 +47,7 @@ int main(int argc, char *argv[]) {
 				break;
 
 			case ' ':
-				printf("...space...");
+				printf("...space...\n");
 				break;
 
 			default:
