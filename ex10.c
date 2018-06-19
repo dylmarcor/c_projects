@@ -2,7 +2,7 @@
 
 int main(int argc, char *argv[]) {
 	
-	if (argc != 2) {
+	if (argc < 2) {
 		// Return error if more nothing sent to the program								
 		printf("ERROR: You need at least one argument\n");
 		return 1;
@@ -11,7 +11,7 @@ int main(int argc, char *argv[]) {
 	int i = 0;
 	int j = 0;
 
-	for (j = 0; argv[j] != '\0'; j++) {
+	for (j = 1; argv[j] != '\0'; j++) {
 		for (i = 0; argv[j][i] != '\0'; i++) {
 
 			char letter = argv[j][i];
