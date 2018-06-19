@@ -46,6 +46,10 @@ int main(int argc, char *argv[]) {
 				}
 				break;
 
+			case ' ':
+				printf("...space...");
+				break;
+
 			default:
 				printf("%d: %c is not a vowel\n", i, letter);
 
