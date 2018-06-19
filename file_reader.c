@@ -10,7 +10,7 @@ int main(int argc, char *argv[]) {
 	} else {
 
 		// Argv[1] is meant to be filename
-		FILE *file = fopen(arg[1], "r");
+		FILE *file = fopen(argv[1], "r");
 
 		if (file == 0) {
 
